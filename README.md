@@ -72,9 +72,16 @@ To enforce operational accountability, designed an automated **2-Hour Resolution
 * **Stop Condition:** Incident state is `Resolved`.
 * **Schedule:** Configured to run on a **24x7** continuous operational schedule.
 
-*📸 [Insert your SLA configuration screenshot here]*
+<h2 align="center">Creating SLA with Start Condition</h2>
+<p align="center">
+    <img src="https://i.imgur.com/jcQUTAc.png" width=80%>
+</p>
+<br />
+<h2 align="center">SLA with Stop Condition</h2>
+<p align="center">
+    <img src="https://i.imgur.com/0jM0lKJ.png" width=80%>
+</p>
 
----
 
 ### Phase 3: The Incident Lifecycle & Technical Escalation
 
@@ -83,21 +90,33 @@ To enforce operational accountability, designed an automated **2-Hour Resolution
 * **Category:** Password Reset
 * **Urgency:** 1 - High *(Triggered the automated 2-Hour SLA clock)*
 * **Symptom:** User locked out of local domain workstation following consecutive bad password attempts.
+<h2 align="center">Incident Report by End User</h2>
+<p align="center">
+    <img src="https://i.imgur.com/ubGQEi2.png" width=80%>
+</p>
 
 #### 2. Frontline Triage (Tier 1 Support)
 * **Assigned Group:** Service Desk - Tier 1
 * **Assigned Agent:** Jane Smith
 * **Diagnostic Actions:** Analyzed directory logs, attempted a credential cache reset, and documented actions in the **Internal Work Notes**.
+<h2 align="center">Assigning Service Desk Tier 1 to Incident</h2>
+<p align="center">
+    <img src="https://i.imgur.com/LzfFKho.png" width=80%>
+</p>
 
 #### 3. Engineering Escalation (Tier 2 Support)
 * **Escalation Path:** Transferred to Network Infrastructure - Tier 2 due to a domain controller synchronization delay.
 * **Assigned Agent:** Bob Johnson
 * **Resolution:** Bob forced database replication across secondary domain controllers, re-authenticated the local cache, and successfully resolved the incident.
 * **SLA Status:** Incident resolved in compliance, freezing the SLA countdown clock.
-
-*📸 [Insert your Escalating to Bob Johnson and Resolved Incident screenshots here]*
-
----
+<h2 align="center">Escalating Incident to Tier 2 Support</h2>
+<p align="center">
+    <img src="https://i.imgur.com/11M4GUs.png" width=80%>
+</p>
+<h2 align="center">Resolving Incident with Tier 2 Support</h2>
+<p align="center">
+    <img src="https://i.imgur.com/RIqEsQj.png" width=80%>
+</p>
 
 ## 🔑 Key Takeaways & Skills Gained
 * **Enterprise Queue Management:** Learned how to navigate complex cloud-hosted ITSM platforms to ensure work is triaged and routed efficiently.
